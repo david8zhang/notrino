@@ -1,12 +1,20 @@
-<!Doctype HTML>
+<!DOCTYPE html>
 <html>
     <head>
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
-        <title> Notrino </title>
+        <title>Notrino</title>
+        <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css"
+        integrity="sha512-dTfge/zgoMYpP7QbHy4gWMEGsbsdZeCXz7irItjcC3sPUFtf0kuFbDz/ixG7ArTxmDjLXDmezHubeNikyKGVyQ=="
+        crossorigin="anonymous">
+        <link rel='stylesheet' href='/stylesheets/style.css' />
     </head>
     <body>
-        <div id="react-main-mount">
-            <%- reactOutput %>
-        </div>
+      <div class="jumbotron text-center">
+          <div class="container">
+              <h1>Welcome to Notrino</h1>
+              <p>The smartest note taker ever. Click below to get started.</p>
+              <p><a class="btn btn-primary btn-lg" href="/login" role="button">Start</a></p>
+          </div>
+      </div>
     </body>
 </html>

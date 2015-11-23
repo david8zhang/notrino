@@ -1,38 +1,20 @@
 {
   "name": "notrino",
-  "version": "1.0.0",
-  "description": "smart notes that turn into quizzes and are schedulable",
-  "main": "index.js",
+  "version": "0.0.0",
+  "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node ./bin/www"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/david8zhang/notrino.git"
-  },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/david8zhang/notrino/issues"
-  },
-  "homepage": "https://github.com/david8zhang/notrino#readme",
   "dependencies": {
     "aws-sdk": "^2.2.18",
-    "bcryptjs": "^2.3.0",
-    "body-parser": "^1.14.1",
-    "browserify": "^12.0.1",
-    "connect-flash": "^0.1.1",
-    "cookie-parser": "^1.4.0",
-    "express": "^4.13.3",
-    "express-handlebars": "^2.0.1",
-    "express-session": "^1.12.1",
-    "http": "0.0.0",
-    "morgan": "^1.6.1",
-    "node-jsx": "^0.13.3",
+    "body-parser": "~1.13.2",
+    "cookie-parser": "~1.3.5",
+    "debug": "~2.2.0",
+    "ejs": "~2.3.3",
+    "express": "~4.13.1",
+    "morgan": "~1.6.1",
     "passport": "^0.3.2",
     "passport-local": "^1.0.0",
-    "path": "^0.12.7",
-    "react": "^0.14.3",
-    "react-dom": "^0.14.3"
+    "serve-favicon": "~2.3.0"
   }
 }
